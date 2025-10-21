@@ -1,0 +1,17 @@
+# Archivos de compilación
+bin/
+*.class
+
+# Configuración local de VS Code
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Librerías externas (si las descargas, puedes subir solo las necesarias)
+lib/
+
+# Archivos temporales
+*.log
+*.tmp
