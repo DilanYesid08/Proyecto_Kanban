@@ -1,4 +1,4 @@
-##1. Requerimientos Funcionales
+## Requerimientos Funcionales
 
 1. El sistema debe permitir registrar proyectos y asignarles un nombre identificador.
 
