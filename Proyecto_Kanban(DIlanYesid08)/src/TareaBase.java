@@ -8,7 +8,7 @@ public abstract class TareaBase implements Movible {
     private String nombre;
     private String descripcion;
     private String estado; // "Pendiente", "En progreso", "Completada"
-    private FechaLimite fechaLimite; // composición
+    private FechaLimite fechaLimite; // Agregación
     private Usuario responsable; // asociación opcional
 
     public TareaBase(String nombre, String descripcion, FechaLimite fechaLimite) {
@@ -16,7 +16,7 @@ public abstract class TareaBase implements Movible {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.estado = "Pendiente";
-        this.fechaLimite = fechaLimite;
+        this.fechaLimite = fechaLimite; 
     }
 
     // Getter básicos

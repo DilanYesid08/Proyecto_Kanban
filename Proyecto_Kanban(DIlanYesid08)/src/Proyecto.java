@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Proyecto {
     private String nombre;
-    private List<TareaBase> tareas; //Al proyecto se le agregan tareas 
+    private List<TareaBase> tareas; //El proyecto debe tener tareas (composción)
     private Usuario responsable; // asociación
 
     public Proyecto(String nombre) {
